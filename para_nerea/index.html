@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff5f4">
+  <meta name="description" content="Un pequeño regalo hecho con mucho cariño para Nerea.">
+  <title>Para Nerea ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="floating-flowers" aria-hidden="true">
+    <span>✿</span><span>❀</span><span>✿</span><span>❁</span><span>❀</span>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#inicio">para Nereax <span>♡</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#recuerdos">Recuerdos</a>
+      <a href="#carta">Una carta</a>
+      <a href="#sorpresas">Sorpresas</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-sticker sticker-one" aria-hidden="true">✿</div>
+      <div class="hero-sticker sticker-two" aria-hidden="true">♡</div>
+      <p class="eyebrow">PARA LA MAS TONTA PERO CON CARIÑO</p>
+      <h1>Feliz cumpleaños,<br><span>Nerea</span></h1>
+      <p class="hero-copy">Hay personas que hacen la vida un poquito más bonita.
+      <a class="primary-button" href="#recuerdos".                 >Tengo algo para ti <span>↓</span></a>
+      <div class="hero-note">Hecho con muchísimo cariño y peleas <span>♡</span></div>
+      <div class="hero-flower flower-left" aria-hidden="true">✿</div>
+      <div class="hero-flower flower-right" aria-hidden="true">❀</div>
+    </section>
+
+    <section class="intro section reveal">
+      <p class="eyebrow">UN PEQUEÑO REGALO</p>
+      <h2>No sabía cómo resumir<br><em>lo mucho que te quiero...</em></h2>
+      <p class="section-copy">Así que he preparado este rinconcito con fotos, recuerdos y palabras que espero que te recuerden lo importante que eres para mí.</p>
+      <div class="tiny-flower" aria-hidden="true">✿</div>
+    </section>
+
+    <section class="memories section" id="recuerdos">
+      <div class="section-heading reveal">
+        <p class="eyebrow">PEDACITOS PEQUEÑOS DE NUESTRA MINIHISTORIA</p>
+        <h2>Momentos que guardo <em>con cariño aunque tengamos pocos</em></h2>
+        <p class="section-copy">Porque los mejores recuerdos no siempre son los más grandes.
+      </div>
+
+      <div class="photo-grid">
+        <figure class="photo-card photo-tall reveal">
+          <img src="images/foto1.png" alt="Nerea y su pareja abrazados frente al mar al atardecer" loading="lazy">
+          <figcaption>No vale mirar las caras que esta hecho con IA JAJAJAJA♡</figcaption>
+        </figure>
+        <figure class="photo-card photo-offset reveal">
+          <img src="images/foto2.jpg" alt="Un momento divertido entre amigos" loading="lazy">
+          <figcaption>Ese ratito que nos hacen reír un poco.</figcaption>
+        </figure>
+        <figure class="photo-card reveal">
+          <img src="images/foto3.jpg" alt="Nerea y una amiga haciéndose una foto juntas" loading="lazy">
+          <figcaption>Foto hecha en el Paso con mi móvil robado.</figcaption>
+        </figure>
+        <figure class="photo-card photo-offset reveal">
+          <img src="images/foto4.jpg" alt="Nerea y su pareja compartiendo un momento durante un paseo nocturno" loading="lazy">
+          <figcaption>Y por hacer especiales hasta los días mas normales no me acuerdo cuando fue este dia MyBad♡</figcaption>
+        </figure>
+      </div>
+      <p class="photo-hint">Puedes cambiar estas fotos o añadir más recuerdos cuando quieras.</p>
+    </section>
+
+    <section class="quote-section section reveal">
+      <span class="quote-mark">“</span>
+      <p>Qué suerte coincidir contigo que sin darme cuenta se hacen tas hecho tan especial en mi vida. </p>Te Quiero Mucho</p>
+      <span class="quote-flower">❤</span>
+    </section>
+
+    <section class="letter-section section" id="carta">
+      <div class="letter-wrap reveal">
+        <div class="letter-decoration">🌷͙֒ &nbsp; ᥫ᭡ &nbsp; ୨୧</div>
+        <p class="eyebrow">ABRE ESTO Y TE SALDRA UNA SONRISILLA TONTA</p>
+        <h2>Unas palabras<br><em>para ti, TONTA</em></h2>
+        <p class="letter-teaser">Hay cosas que a veces no nos lo decimos lo suficiente...</p>
+        <button class="primary-button" id="openLetter">Leer tu carta<span>♡</span></button>
+      </div>
+    </section>
+
+    <section class="surprises section" id="sorpresas">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Y TODAVÍA HAY MÁS COSITAS</p>
+        <h2>Unas pequeñas <em>sorpresas</em></h2>
+        <p class="section-copy">Pulsa cada flor. Hay un mensajito esperando.</p>
+      </div>
+      <div class="surprise-grid">
+        <button class="surprise-card reveal" data-message="Gracias por estar, por escucharme y por hacer que mis dias malos se convierta en dias buenos. ♡">
+          <span>🌷</span><strong>Una razón</strong><small>para darte las gracias</small>
+        </button>
+        <button class="surprise-card reveal" data-message="Ojalá seas lo q siempre has sido conmigo y nunca lo cambies. ✨">
+          <span>🌼</span><strong>Un deseo</strong><small>para tu nuevo año</small>
+        </button>
+        <button class="surprise-card reveal" data-message="Nunca dudes de lo mucho que vales para mi, ni de lo especial que eres y lo que te quiero. Mereces mil cosas bonitas, hoy y siempre porque nadie hace lo que tu haces. 💗">
+          <span>🌸</span><strong>Un recordatorio</strong><small>que nunca debes olvidar</small>
+        </button>
+      </div>
+      <div class="message-box" id="messageBox" aria-live="polite">Tus sorpresas aparecerán aquí... ♡</div>
+    </section>
+
+    <section class="ending section reveal">
+      <div class="ending-flower" aria-hidden="true">✿</div>
+      <p class="eyebrow">Y POR ÚLTIMO QUESITO FERMENTADO 🧀 ...</p>
+      <h2>Que la vida te devuelva<br><em>todo lo bonito que das.</em></h2>
+      <p class="section-copy">Feliz cumpleaños, Tontita. Gracias por ser tú y por estar en mi vida aguantandome.</p>
+      <button class="confetti-button" id="confettiButton">Celebrar tu día ✨</button>
+      <p class="signature">Hecho con cariño y con estres porque me cago en la pt lo dificil que es esto, <span>Hecho por alguien que te quiere solo un poquito ♡</span></p>
+    </section>
+  </main>
+
+  <footer>Hecho con cariño para Tontita · <span>♡</span></footer>
+
+  <div class="modal" id="letterModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close="true"></div>
+    <article class="letter-paper">
+      <button class="close-modal" id="closeLetter" aria-label="Cerrar carta">×</button>
+      <div class="letter-decoration">✿ &nbsp; ❀ &nbsp; ✿</div>
+      <p class="eyebrow">PARA ALGUIEN MUY ESPECIAL EN MI VIDA</p>
+      <h2 id="modalTitle">Querida Tontita:</h2>
+      <div class="letter-text">
+        <p>Hoy es tu día y no quería dejarlo pasar sin decirte lo muchísimo que te quiero. Q a veces cuesta encontrar las palabras bonitas para decirte lo importante q eres oara mi lo que te quiero y todo lo que valoro de ti.</p>
+        <p>Quiero darte las gracias por cada vez q hablamos, por cada risa, por los momentos buenos que tenemos y también por estar en esos días en los que las cosas no son tan fáciles ni bonitas como esperabamos pero de eso va las relaciones y eso hace que nos queramos mas cada vez que pasa algo. Le tengo q dar las gracias por haberte encontrado y poder compartir tantos recuerdos bonitos contigo.</p>
+        <p>Ojalá nunca pierdas esa forma tan tuya de ser. No olvides lo valiosa que eres que para mi eres mas que un diamante, tmb todo lo que aportas a las personas que te quieren y lo mucho que mereces ser feliz. Espero que este año te traiga pasemos momentos bonitos y y qur yo pueda estar ahi y que yo te voy a dar mil motivos para que sonrias y me quieras un pelin mas voy a demostrar cosas que nunca has visto y espero que nuca nos separemos.</p>
+        <p>Y aunque no siempre lo diga, quiero que sepas que aquí tienes a alguien que siempre te va a escuchar y ayudar en todo lo que me dejes. Gracias por llegar a mi vida y por poder ver tu primer cumpleaños.</p>
+        <p class="letter-final">Feliz cumpleaños, Nerea.   Que hoy y siempre seamos Tu y Yo. ♡</p>
+      </div>
+      <p class="letter-sign">Con muchísimo cariño Tonta <span>♡</span></p>
+    </article>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

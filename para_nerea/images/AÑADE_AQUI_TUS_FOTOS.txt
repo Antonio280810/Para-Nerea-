@@ -1,0 +1,2 @@
+Las cuatro fotos de la web están aquí: foto1.png, foto2.jpg, foto3.jpg y foto4.jpg.
+Puedes sustituirlas por otras fotos manteniendo esos nombres.
